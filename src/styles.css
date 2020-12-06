@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: black;
+  background: radial-gradient(at 50% 60%, #873740 0%, #272730 40%, #171720 80%, #070710 100%);
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+form {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form p {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+form input {
+  padding: 0.5rem 2rem;
+  font-family: inherit;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  background: #372c49;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #492f33;
+  /* background: radial-gradient(at 50% 60%, #873740 0%, #272730 40%, #171720 80%, #070710 100%); */
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
