@@ -35,6 +35,7 @@ html {
 form {
   height: 100vh;
   width: 100vw;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,6 +49,7 @@ form p {
 }
 
 form input {
+  max-width: 100%;
   padding: 0.5rem 2rem;
   font-family: inherit;
   font-size: 2rem;
