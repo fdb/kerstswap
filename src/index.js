@@ -86,7 +86,7 @@ function Form({ handleFormSubmit }) {
       }}>
       <p>Geef je naam in:</p>
       <input type="text" name={name} onChange={(e) => setName(e.target.value)} />
-      <input type="submit" value="Spin the wheel" />
+      <input type="submit" value="Wie heb ik?" />
     </form>
   )
 }
